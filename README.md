@@ -1,0 +1,2 @@
+# Exercise for the University of Helsinki course DevOps with Docker
+This is a basic containerized web app that servers a static website. It uses the python builtin http.server to server files from the current working directory. The image is built with GitHub actions and uploaded to ghcr.io where it is then pulled by render.com to host it. The service is available here: https://maholmlund-docker-example.onrender.com
